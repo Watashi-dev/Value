@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .table-container {
+            margin: 50px auto;
+            width: 80%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        table th {
+            background-color: #7E57C2;
+            color: white;
+        }
+        table td {
+            background-color: #f7f7f7;
+        }
+        .cta-button {
+            background-color: #7E57C2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #B39DDB;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Pricing Plans</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Price</th>
+                <th>Features</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>$19/month</td>
+                <td>Basic features</td>
+                <td><a href="#" class="cta-button">Sign Up</a></td>
+            </tr>
+            <tr>
+                <td>Pro</td>
+                <td>$39/month</td>
+                <td>Advanced features</td>
+                <td><a href="#" class="cta-button">Sign Up</a></td>
+            </tr>
+            <tr>
+                <td>Enterprise</td>
+                <td>$59/month</td>
+                <td>All features</td>
+                <td><a href="#" class="cta-button">Sign Up</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
